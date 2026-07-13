@@ -1,0 +1,6 @@
+{
+  "//": "Global framework switches (reserved for WC2.Admin module).",
+  "DebugMode": false,
+  "ChatPrefix": " \u0010[WC2]\u0001",
+  "Language": "en"
+}

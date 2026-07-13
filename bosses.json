@@ -1,0 +1,400 @@
+{
+  "RespawnCooldownMinutes": 12,
+  "AutoSpawnRegionBoss": true,
+  "AutoSpawnDelaySeconds": 240,
+  "KnifeOnly": true,
+  "ModelScale": 1.35,
+  "Bosses": [
+    {
+      "Id": "grommash_the_molten",
+      "DisplayName": "Grommash the Molten",
+      "Title": "Warlord of the Volcanic Realm",
+      "RegionId": "volcanic_realm",
+      "Model": "agents/models/han/hl2/boomer_v2/boomer_v2.vmdl",
+      "BaseHealth": 3000,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.4,
+      "MoveSpeed": 1.1,
+      "LootTableId": "boss_volcanic",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Smoldering",
+          "Abilities": [
+            "flame_nova"
+          ],
+          "AbilityIntervalSeconds": 14,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.6,
+          "Name": "Erupting",
+          "Abilities": [
+            "flame_nova",
+            "magma_leap",
+            "ground_slam"
+          ],
+          "AbilityIntervalSeconds": 10,
+          "AnnounceHtml": "<font color='#ff6a3c'>Grommash ERUPTS! The floor is lava — keep moving!</font>"
+        },
+        {
+          "HealthThreshold": 0.25,
+          "Name": "Meltdown",
+          "Abilities": [
+            "flame_nova",
+            "magma_leap",
+            "ground_slam",
+            "enrage"
+          ],
+          "AbilityIntervalSeconds": 7,
+          "AnnounceHtml": "<font color='#ff2e2e'>MELTDOWN — burn him down NOW!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "The ground splits. Magma breathes.",
+        "Grommash has awakened beneath the caldera!"
+      ],
+      "DeathLines": [
+        "The molten warlord crumbles to obsidian."
+      ]
+    },
+    {
+      "Id": "sylvara_frostwhisper",
+      "DisplayName": "Sylvara Frostwhisper",
+      "Title": "Banshee of the Frozen North",
+      "RegionId": "frozen_north",
+      "Model": "agents/models/han/hl2/witch/witch.vmdl",
+      "BaseHealth": 3000,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.1,
+      "MoveSpeed": 1.0,
+      "LootTableId": "boss_frozen",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Whisper",
+          "Abilities": [
+            "frost_slow"
+          ],
+          "AbilityIntervalSeconds": 12,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.4,
+          "Name": "Scream",
+          "Abilities": [
+            "frost_slow",
+            "blizzard",
+            "life_drain"
+          ],
+          "AbilityIntervalSeconds": 8,
+          "AnnounceHtml": "<font color='#9fdcff'>Sylvara SCREAMS — the blizzard descends, and she feeds on the living!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "A chill silences the battlefield...",
+        "Sylvara Frostwhisper drifts among you."
+      ],
+      "DeathLines": [
+        "Her wail fades into falling snow."
+      ]
+    },
+    {
+      "Id": "thornmaw_the_rootbound",
+      "DisplayName": "Thornmaw the Rootbound",
+      "Title": "Horror of the Ancient Forest",
+      "RegionId": "ancient_forest",
+      "Model": "agents/models/han/hl2/hunter/hunter.vmdl",
+      "BaseHealth": 2500,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.2,
+      "MoveSpeed": 1.25,
+      "LootTableId": "default_boss",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Stalking",
+          "Abilities": [
+            "frost_slow"
+          ],
+          "AbilityIntervalSeconds": 12,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.5,
+          "Name": "Pouncing",
+          "Abilities": [
+            "frost_slow",
+            "life_drain",
+            "magma_leap"
+          ],
+          "AbilityIntervalSeconds": 8,
+          "AnnounceHtml": "<font color='#5cff8a'>Thornmaw POUNCES — it hunts whoever hurts it most!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "The undergrowth shifts. Something is stalking you.",
+        "Thornmaw the Rootbound crawls from the roots!"
+      ],
+      "DeathLines": [
+        "The forest goes quiet. The roots recede."
+      ]
+    },
+    {
+      "Id": "gorehowl_the_warsong",
+      "DisplayName": "Gorehowl",
+      "Title": "Butcher of the Warsong Battleground",
+      "RegionId": "warsong_battleground",
+      "Model": "agents/models/s2ze/zombie_chris_walker/zombie_chris_walker.vmdl",
+      "BaseHealth": 4000,
+      "HealthPerPlayer": 250,
+      "DamageMultiplier": 1.5,
+      "MoveSpeed": 1.2,
+      "LootTableId": "boss_volcanic",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Bloodlust",
+          "Abilities": [
+            "ground_slam"
+          ],
+          "AbilityIntervalSeconds": 11,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.6,
+          "Name": "Carnage",
+          "Abilities": [
+            "ground_slam",
+            "magma_leap"
+          ],
+          "AbilityIntervalSeconds": 8,
+          "AnnounceHtml": "<font color='#ff4b3a'>Gorehowl CHARGES the battleground — nowhere is safe!</font>"
+        },
+        {
+          "HealthThreshold": 0.25,
+          "Name": "Slaughter",
+          "Abilities": [
+            "ground_slam",
+            "magma_leap",
+            "enrage",
+            "life_drain"
+          ],
+          "AbilityIntervalSeconds": 6,
+          "AnnounceHtml": "<font color='#ff2e2e'>SLAUGHTER — Gorehowl feeds on the fallen!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "War drums stop. Something heavier marches.",
+        "GOREHOWL HAS TAKEN THE FIELD!"
+      ],
+      "DeathLines": [
+        "The butcher falls. The war drums resume."
+      ]
+    },
+    {
+      "Id": "hachiro_the_worldbreaker",
+      "DisplayName": "Hachirō the Worldbreaker",
+      "Title": "Colossus of the Endless Invasion",
+      "RegionId": null,
+      "Model": "characters/models/touchskins/hedron/hedron.vmdl",
+      "BaseHealth": 6000,
+      "HealthPerPlayer": 500,
+      "DamageMultiplier": 1.6,
+      "MoveSpeed": 1.25,
+      "LootTableId": "default_boss",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Stirring",
+          "Abilities": [
+            "flame_nova",
+            "ground_slam"
+          ],
+          "AbilityIntervalSeconds": 12,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.65,
+          "Name": "Rampage",
+          "Abilities": [
+            "ground_slam",
+            "magma_leap",
+            "life_drain"
+          ],
+          "AbilityIntervalSeconds": 8,
+          "AnnounceHtml": "<font color='#b58cff'>Hachirō RAMPAGES — it leaps at whoever hurts it most!</font>"
+        },
+        {
+          "HealthThreshold": 0.3,
+          "Name": "Worldbreaker",
+          "Abilities": [
+            "ground_slam",
+            "magma_leap",
+            "enrage",
+            "blizzard"
+          ],
+          "AbilityIntervalSeconds": 6,
+          "AnnounceHtml": "<font color='#ff2e2e'>WORLDBREAKER — the earth itself is a weapon! Kill it NOW!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "The horizon cracks. Something colossal approaches...",
+        "HACHIRŌ THE WORLDBREAKER HAS BREACHED THE REALM!"
+      ],
+      "DeathLines": [
+        "The colossus collapses. The realm exhales."
+      ]
+    },
+    {
+      "Id": "skarn_the_trapper",
+      "DisplayName": "Skarn the Trapper",
+      "Title": "Stalker of the Wilderness Reach",
+      "RegionId": "wilderness_reach",
+      "Model": "agents/models/han/hl2/smoker/smoker.vmdl",
+      "BaseHealth": 3000,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.2,
+      "MoveSpeed": 1.2,
+      "LootTableId": "boss_wilderness",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Stalking",
+          "Abilities": [
+            "ground_slam"
+          ],
+          "AbilityIntervalSeconds": 13,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.5,
+          "Name": "Ambush",
+          "Abilities": [
+            "ground_slam",
+            "life_drain"
+          ],
+          "AbilityIntervalSeconds": 9,
+          "AnnounceHtml": "<font color='#5cff8a'>Skarn springs his trap — the hunt is on!</font>"
+        },
+        {
+          "HealthThreshold": 0.2,
+          "Name": "Feral",
+          "Abilities": [
+            "ground_slam",
+            "life_drain",
+            "enrage"
+          ],
+          "AbilityIntervalSeconds": 6,
+          "AnnounceHtml": "<font color='#ff4b3a'>Skarn goes FERAL — run!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "Something snapped in the treeline...",
+        "Skarn the Trapper stalks from the deep woods."
+      ],
+      "DeathLines": [
+        "The trapper's snares fall silent."
+      ]
+    },
+    {
+      "Id": "krevas_frostbound",
+      "DisplayName": "Krevas the Frostbound",
+      "Title": "Wraith of the Frostfest Village",
+      "RegionId": "frostfest_village",
+      "Model": "characters/models/otakku/zombie_new_main/zombie_new_main.vmdl",
+      "BaseHealth": 3000,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.15,
+      "MoveSpeed": 1.1,
+      "LootTableId": "boss_frozen",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Chill",
+          "Abilities": [
+            "frost_slow"
+          ],
+          "AbilityIntervalSeconds": 12,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.45,
+          "Name": "Blizzard",
+          "Abilities": [
+            "frost_slow",
+            "blizzard"
+          ],
+          "AbilityIntervalSeconds": 8,
+          "AnnounceHtml": "<font color='#9fdcff'>Krevas howls — a blizzard descends on the village!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "The festival lights flicker and die...",
+        "Krevas the Frostbound rises from the snow."
+      ],
+      "DeathLines": [
+        "The frost wraith dissolves into falling snow."
+      ]
+    },
+    {
+      "Id": "maelgor_the_drowned",
+      "DisplayName": "Maelgor the Drowned King",
+      "Title": "Lord of the Sunken Isles",
+      "RegionId": "sunken_isles",
+      "Model": "agents/models/hmn_ag2/zombie/xenomorph/xenomorph_sk2model.vmdl",
+      "BaseHealth": 3500,
+      "HealthPerPlayer": 0,
+      "DamageMultiplier": 1.25,
+      "MoveSpeed": 1.15,
+      "LootTableId": "boss_volcanic",
+      "MinPlayers": 1,
+      "Phases": [
+        {
+          "HealthThreshold": 1.0,
+          "Name": "Tidal",
+          "Abilities": [
+            "ground_slam"
+          ],
+          "AbilityIntervalSeconds": 13,
+          "AnnounceHtml": null
+        },
+        {
+          "HealthThreshold": 0.5,
+          "Name": "Undertow",
+          "Abilities": [
+            "ground_slam",
+            "frost_slow"
+          ],
+          "AbilityIntervalSeconds": 9,
+          "AnnounceHtml": "<font color='#7FBFFF'>Maelgor summons the undertow — the ground pulls beneath you!</font>"
+        },
+        {
+          "HealthThreshold": 0.2,
+          "Name": "Wrath of the Deep",
+          "Abilities": [
+            "ground_slam",
+            "frost_slow",
+            "enrage"
+          ],
+          "AbilityIntervalSeconds": 6,
+          "AnnounceHtml": "<font color='#ff4b3a'>THE DROWNED KING'S WRATH — brace yourselves!</font>"
+        }
+      ],
+      "SpawnLines": [
+        "The tide recedes to reveal something ancient...",
+        "Maelgor the Drowned King claims the shore."
+      ],
+      "DeathLines": [
+        "The Drowned King sinks beneath the waves once more."
+      ]
+    }
+  ]
+}

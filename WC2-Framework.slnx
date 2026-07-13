@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WC2.Admin/WC2.Admin.csproj" />
+    <Project Path="src/WC2.API/WC2.API.csproj" />
+    <Project Path="src/WC2.Bosses/WC2.Bosses.csproj" />
+    <Project Path="src/WC2.Economy/WC2.Economy.csproj" />
+    <Project Path="src/WC2.Events/WC2.Events.csproj" />
+    <Project Path="src/WC2.Quests/WC2.Quests.csproj" />
+    <Project Path="src/WC2.Shared/WC2.Shared.csproj" />
+    <Project Path="src/WC2.UI/WC2.UI.csproj" />
+    <Project Path="src/WC2.World/WC2.World.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>WC2.Quests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.*" />
+    <ProjectReference Include="../WC2.API/WC2.API.csproj" />
+    <ProjectReference Include="../WC2.Shared/WC2.Shared.csproj" />
+  </ItemGroup>
+</Project>

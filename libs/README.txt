@@ -1,0 +1,1 @@
+Place CS2MenuManager.dll here (from your server's counterstrikesharp shared/ or plugins/CS2MenuManager_MenuManager folder) to enable the scrollable WASD vendor menu. Without it, the vendor falls back to the numbered CenterHtml menu.

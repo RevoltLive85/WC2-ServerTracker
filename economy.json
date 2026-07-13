@@ -1,0 +1,322 @@
+{
+  "GoldPerKill": 6,
+  "GoldPerHeadshot": 10,
+  "GoldPerRoundWin": 25,
+  "ShopItems": [
+    {
+      "Id": "xp_scroll_small",
+      "DisplayName": "Scroll of Wisdom (+500 XP)",
+      "Currency": "Gold",
+      "Price": 400,
+      "Description": "Instant Warcraft XP."
+    },
+    {
+      "Id": "skin_nanogirl",
+      "DisplayName": "Nano Girl",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Cybernetic and lethal.",
+      "ModelPath": "characters/models/kolka/nano_girl/nano_girl.vmdl"
+    },
+    {
+      "Id": "skin_ravenpool",
+      "DisplayName": "Ravenpool",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "The darker mercenary.",
+      "ModelPath": "agents/models/otakku/ravenpool/ravenpool.vmdl"
+    },
+    {
+      "Id": "skin_goku_v1",
+      "DisplayName": "Goku SS2",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Power level rising.",
+      "ModelPath": "agents/models/otakku/goku_ss2_v1/goku_ss2_v1.vmdl"
+    },
+    {
+      "Id": "skin_goku_v2",
+      "DisplayName": "Goku SS2 (V2)",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Beyond the limit.",
+      "ModelPath": "agents/models/otakku/goku_ss2_v2/goku_ss2_v2.vmdl"
+    },
+    {
+      "Id": "skin_itachi",
+      "DisplayName": "Itachi Uchiha",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "The rogue Uchiha.",
+      "ModelPath": "characters/models/otakku/itachi_uchiha_ct/itachi_uchiha_ct.vmdl"
+    },
+    {
+      "Id": "skin_crysis1",
+      "DisplayName": "Nanosuit Mk.1",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "Maximum armor.",
+      "ModelPath": "characters/models/night_fighter/crysis1/crysis1.vmdl"
+    },
+    {
+      "Id": "skin_crysis3",
+      "DisplayName": "Nanosuit Mk.3",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "Maximum power.",
+      "ModelPath": "characters/models/night_fighter/crysis3/crysis3.vmdl"
+    },
+    {
+      "Id": "skin_cosmic",
+      "DisplayName": "Cosmic Squatter",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "From beyond the stars.",
+      "ModelPath": "characters/kolka/cosmicsquatter/cosmicsquatter.vmdl"
+    },
+    {
+      "Id": "skin_frozon",
+      "DisplayName": "Frozon",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "Ice cold.",
+      "ModelPath": "characters/kolka_fix_skins2/frozon.vmdl"
+    },
+    {
+      "Id": "skin_mezmer",
+      "DisplayName": "Mezmer",
+      "Currency": "BossToken",
+      "Price": 12,
+      "Description": "Hypnotic presence.",
+      "ModelPath": "characters/models/kolka/2025/mezmer/mezmer.vmdl"
+    },
+    {
+      "Id": "skin_doom",
+      "DisplayName": "Doom Slayer",
+      "Currency": "BossToken",
+      "Price": 15,
+      "Description": "Rip and tear.",
+      "ModelPath": "characters/models/night_fighter/doom_slayer/doom_slayer.vmdl"
+    },
+    {
+      "Id": "skin_doom_black",
+      "DisplayName": "Doom Slayer (Nightmare)",
+      "Currency": "BossToken",
+      "Price": 20,
+      "Description": "The black armor.",
+      "ModelPath": "characters/models/night_fighter/doom_slayer/doom_slayer_black.vmdl"
+    },
+    {
+      "Id": "skin_doom_white",
+      "DisplayName": "Doom Slayer (Phobos)",
+      "Currency": "BossToken",
+      "Price": 20,
+      "Description": "The white armor.",
+      "ModelPath": "characters/models/night_fighter/doom_slayer/doom_slayer_white.vmdl"
+    },
+    {
+      "Id": "skin_doom_gold",
+      "DisplayName": "Doom Slayer (Gold)",
+      "Currency": "BossToken",
+      "Price": 30,
+      "Description": "Legendary gold plating.",
+      "ModelPath": "characters/models/night_fighter/doom_slayer/doom_slayer_gold.vmdl"
+    },
+    {
+      "Id": "skin_ishowspeed",
+      "DisplayName": "iShowSpeed",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "SEWEY!",
+      "ModelPath": "characters/kolka_fix_skins2/ishowspeed.vmdl"
+    },
+    {
+      "Id": "skin_mrbeast",
+      "DisplayName": "MrBeast",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "The philanthropist.",
+      "ModelPath": "characters/kolka_fix_skins2/mrbeast.vmdl"
+    },
+    {
+      "Id": "skin_incredible",
+      "DisplayName": "Mr. Incredible",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Uncanny.",
+      "ModelPath": "characters/kolka_fix_skins2/mrencredible.vmdl"
+    },
+    {
+      "Id": "skin_cj",
+      "DisplayName": "CJ",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Ah sh*t, here we go again.",
+      "ModelPath": "characters/models/kolka/2025/cj/cj.vmdl"
+    },
+    {
+      "Id": "skin_sushiman",
+      "DisplayName": "Sushi Man",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Fresh.",
+      "ModelPath": "characters/models/kolka/2025/sushiman/sushiman.vmdl"
+    },
+    {
+      "Id": "skin_monkey",
+      "DisplayName": "Monkey",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Ook ook.",
+      "ModelPath": "characters/kolka_fix_skins2/monkey.vmdl"
+    },
+    {
+      "Id": "skin_banana",
+      "DisplayName": "Banana",
+      "Currency": "BossToken",
+      "Price": 10,
+      "Description": "Peak comedy.",
+      "ModelPath": "characters/models/kolka/2025/banana/banana.vmdl"
+    },
+    {
+      "Id": "worldstone_xp_scroll",
+      "DisplayName": "Worldstone Tome",
+      "Currency": "WorldstoneShard",
+      "Price": 1,
+      "Description": "A tome bound in shard-light. Massive XP surge."
+    },
+    {
+      "Id": "shard_exchange_tokens",
+      "DisplayName": "Shard Exchange",
+      "Currency": "WorldstoneShard",
+      "Price": 1,
+      "Description": "Trade a Worldstone Shard for 8 Boss Tokens."
+    }
+  ],
+  "LootTables": [
+    {
+      "Id": "default_boss",
+      "MinRolls": 2,
+      "MaxRolls": 3,
+      "Entries": [
+        {
+          "Weight": 60,
+          "Currency": "Gold",
+          "MinAmount": 50,
+          "MaxAmount": 150,
+          "DisplayName": "Pouch of Gold",
+          "Rarity": "Common"
+        },
+        {
+          "Weight": 30,
+          "Currency": "BossToken",
+          "MinAmount": 1,
+          "MaxAmount": 2,
+          "DisplayName": "Boss Token",
+          "Rarity": "Rare"
+        },
+        {
+          "Weight": 10,
+          "Currency": "WorldstoneShard",
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "DisplayName": "Worldstone Shard",
+          "Rarity": "Legendary"
+        }
+      ]
+    },
+    {
+      "Id": "boss_volcanic",
+      "MinRolls": 2,
+      "MaxRolls": 4,
+      "Entries": [
+        {
+          "Weight": 55,
+          "Currency": "Gold",
+          "MinAmount": 80,
+          "MaxAmount": 220,
+          "DisplayName": "Molten Gold",
+          "Rarity": "Common"
+        },
+        {
+          "Weight": 35,
+          "Currency": "BossToken",
+          "MinAmount": 1,
+          "MaxAmount": 3,
+          "DisplayName": "Obsidian Token",
+          "Rarity": "Epic"
+        },
+        {
+          "Weight": 10,
+          "Currency": "WorldstoneShard",
+          "MinAmount": 1,
+          "MaxAmount": 2,
+          "DisplayName": "Worldstone Shard",
+          "Rarity": "Legendary"
+        }
+      ]
+    },
+    {
+      "Id": "boss_frozen",
+      "MinRolls": 2,
+      "MaxRolls": 3,
+      "Entries": [
+        {
+          "Weight": 60,
+          "Currency": "Gold",
+          "MinAmount": 60,
+          "MaxAmount": 180,
+          "DisplayName": "Frost-touched Gold",
+          "Rarity": "Common"
+        },
+        {
+          "Weight": 30,
+          "Currency": "BossToken",
+          "MinAmount": 1,
+          "MaxAmount": 2,
+          "DisplayName": "Banshee Token",
+          "Rarity": "Rare"
+        },
+        {
+          "Weight": 10,
+          "Currency": "WorldstoneShard",
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "DisplayName": "Worldstone Shard",
+          "Rarity": "Legendary"
+        }
+      ]
+    },
+    {
+      "Id": "boss_wilderness",
+      "MinRolls": 2,
+      "MaxRolls": 3,
+      "Entries": [
+        {
+          "Weight": 60,
+          "Currency": "Gold",
+          "MinAmount": 60,
+          "MaxAmount": 170,
+          "DisplayName": "Trapper's Gold",
+          "Rarity": "Common"
+        },
+        {
+          "Weight": 30,
+          "Currency": "BossToken",
+          "MinAmount": 1,
+          "MaxAmount": 2,
+          "DisplayName": "Snare Token",
+          "Rarity": "Rare"
+        },
+        {
+          "Weight": 10,
+          "Currency": "WorldstoneShard",
+          "MinAmount": 1,
+          "MaxAmount": 1,
+          "DisplayName": "Worldstone Shard",
+          "Rarity": "Legendary"
+        }
+      ]
+    }
+  ]
+}

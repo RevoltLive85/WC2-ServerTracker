@@ -1,0 +1,227 @@
+{
+  "Rotation": {
+    "Enabled": true,
+    "NormalBotQuota": 16,
+    "RoundsPerMap": 6,
+    "ChangeDelaySeconds": 12,
+    "FinaleEnabled": true,
+    "FinaleHealthMultiplier": 5.0,
+    "FinaleFallbackBossId": "gorehowl_the_warsong",
+    "FinaleForcedBossId": "hachiro_the_worldbreaker",
+    "FinaleDurationSeconds": 200,
+    "Maps": [
+      {
+        "Map": "ws:3476293371",
+        "DisplayName": "Warsong Gulch",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3152430710",
+        "DisplayName": "Mills",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3132854332",
+        "DisplayName": "Foroglio",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3075706807",
+        "DisplayName": "Biome",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3121217565",
+        "DisplayName": "Thera",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3261289969",
+        "DisplayName": "Jura",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3329258290",
+        "DisplayName": "Basalt",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3195399109",
+        "DisplayName": "Maginot",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3464094213",
+        "DisplayName": "Outferno",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3691046714",
+        "DisplayName": "Splinter",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3609803878",
+        "DisplayName": "Winter Mirage",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3575199044",
+        "DisplayName": "Osowa Draki",
+        "Workshop": true
+      },
+      {
+        "Map": "ws:3683125985",
+        "DisplayName": "Vesper",
+        "Workshop": true
+      }
+    ]
+  },
+  "Regions": [
+    {
+      "Id": "starter_kingdom",
+      "DisplayName": "The Starter Kingdom",
+      "Flavor": "Where every legend begins",
+      "ColorHex": "#ffd35c",
+      "Difficulty": 1,
+      "RecommendedPlayers": 4,
+      "Maps": [
+        "de_mills",
+        "de_dust2",
+        "de_osowa_draki",
+        "de_vesper"
+      ],
+      "AmbientLines": [
+        "Merchants call out across the bazaar...",
+        "Bells ring from the citadel."
+      ]
+    },
+    {
+      "Id": "ancient_forest",
+      "DisplayName": "The Ancient Forest",
+      "Flavor": "The trees remember",
+      "ColorHex": "#5cff8a",
+      "Difficulty": 2,
+      "RecommendedPlayers": 6,
+      "XpBonus": 0.1,
+      "RegionBossId": "thornmaw_the_rootbound",
+      "Maps": [
+        "de_biome",
+        "de_foroglio"
+      ],
+      "AmbientLines": [
+        "Something moves between the roots.",
+        "Old magic hums in the canopy."
+      ]
+    },
+    {
+      "Id": "frozen_north",
+      "DisplayName": "The Frozen North",
+      "Flavor": "Cold enough to silence gunfire",
+      "ColorHex": "#9fdcff",
+      "Difficulty": 3,
+      "RecommendedPlayers": 8,
+      "XpBonus": 0.2,
+      "GoldBonus": 0.1,
+      "RegionBossId": "sylvara_frostwhisper",
+      "Maps": [
+        "de_jura",
+        "de_maginot"
+      ],
+      "AmbientLines": [
+        "A banshee's wail rides the wind...",
+        "Ice crackles beneath your boots."
+      ]
+    },
+    {
+      "Id": "volcanic_realm",
+      "DisplayName": "The Volcanic Realm",
+      "Flavor": "Even the shadows burn here",
+      "ColorHex": "#ff6a3c",
+      "Difficulty": 4,
+      "RecommendedPlayers": 10,
+      "XpBonus": 0.35,
+      "GoldBonus": 0.2,
+      "RegionBossId": "grommash_the_molten",
+      "Maps": [
+        "de_outferno",
+        "de_basalt"
+      ],
+      "AmbientLines": [
+        "Ash falls like snow.",
+        "The caldera groans beneath the map."
+      ]
+    },
+    {
+      "Id": "warsong_battleground",
+      "DisplayName": "The Warsong Battleground",
+      "Flavor": "Where the horde makes its stand",
+      "ColorHex": "#ff4b3a",
+      "Difficulty": 5,
+      "RecommendedPlayers": 10,
+      "XpBonus": 0.3,
+      "GoldBonus": 0.2,
+      "RegionBossId": "gorehowl_the_warsong",
+      "Maps": [
+        "de_warsong_gulch"
+      ],
+      "AmbientLines": [
+        "War drums echo across the gulch...",
+        "The ground is scarred by endless battle."
+      ]
+    },
+    {
+      "Id": "wilderness_reach",
+      "DisplayName": "The Wilderness Reach",
+      "Flavor": "The forest hunts back",
+      "ColorHex": "#6b8f4e",
+      "Difficulty": 3,
+      "RecommendedPlayers": 6,
+      "XpBonus": 0.15,
+      "RegionBossId": "skarn_the_trapper",
+      "Maps": [
+        "de_splinter"
+      ],
+      "AmbientLines": [
+        "A snare clicks shut somewhere close.",
+        "The trees seem to be watching."
+      ]
+    },
+    {
+      "Id": "frostfest_village",
+      "DisplayName": "The Frostfest Village",
+      "Flavor": "The lights are on, but no one's home",
+      "ColorHex": "#c94f7c",
+      "Difficulty": 3,
+      "RecommendedPlayers": 6,
+      "XpBonus": 0.15,
+      "GoldBonus": 0.05,
+      "RegionBossId": "krevas_frostbound",
+      "Maps": [
+        "de_mirage_christmas"
+      ],
+      "AmbientLines": [
+        "A carol plays from an empty square...",
+        "Snow falls, but nothing moves."
+      ]
+    },
+    {
+      "Id": "sunken_isles",
+      "DisplayName": "The Sunken Isles",
+      "Flavor": "The tide remembers everything",
+      "ColorHex": "#2e8b8b",
+      "Difficulty": 4,
+      "RecommendedPlayers": 8,
+      "XpBonus": 0.25,
+      "GoldBonus": 0.15,
+      "RegionBossId": "maelgor_the_drowned",
+      "Maps": [
+        "de_thera"
+      ],
+      "AmbientLines": [
+        "Waves crash against ancient stone.",
+        "Something ancient stirs beneath the tide."
+      ]
+    }
+  ]
+}
